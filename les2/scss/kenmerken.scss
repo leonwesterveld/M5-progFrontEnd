@@ -1,0 +1,49 @@
+@use 'components';
+.kenmerken{
+    @extend %section;
+}
+
+.kenmerken__header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    height: 20%;
+}
+
+.kenmerken__h2{
+    font-size: 200%;
+    color: #eee;
+}
+
+.kenmerken__list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
+
+.kenmerken__listItem{
+    color: #eee;
+    width: 40%;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.kenmerk__p{
+    width: 30ch;
+}
+
+.kenmerk-icon{
+    font-size: 180%;
+    border: .1rem solid #662549;
+    padding: 2rem;
+    border-radius: 50%;
+}

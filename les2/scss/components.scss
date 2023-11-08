@@ -1,0 +1,42 @@
+@use 'colors';
+%cta {
+    width: 8rem;
+    padding: .5rem;
+    font-size: 70%;
+    background: colors.$orange;
+    border: none;
+    color: colors.$font_color;
+    border-radius: .5rem;
+    text-transform: uppercase;
+}
+
+%cta:hover {
+    cursor: pointer;
+    background: darken(colors.$orange, 10%);
+}
+
+%header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+%h2{
+    font-size: 200%;
+    color: colors.$font_color
+}
+
+%section{
+    height: 100%;
+    border-bottom: colors.$orange 0.2rem solid;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+%icon{
+    font-size: 250%;
+    padding: 1.5rem;
+    color: colors.$font-color;
+    border: colors.$orange 0.2rem solid;
+    border-radius: 50%;
+}

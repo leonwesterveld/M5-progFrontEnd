@@ -1,0 +1,35 @@
+@use 'colors';
+@use 'components';
+.nav {
+    width: 100%;
+    background: colors.$nav;
+    display: flex;
+    justify-content: space-between;
+    min-height: 7rem;
+    align-items: center;
+    color: colors.$font_color;
+    font-size: 120%;
+    padding: 2rem;
+    text-transform: uppercase;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.nav__logo{
+    font-size: 250%;
+    color: colors.$font_color;
+    border: .5rem solid colors.$orange;
+    border-radius: 50%;
+    padding: .5rem; 
+}
+
+.nav__list {
+    display: flex;
+    gap: 4rem;
+}
+
+.nav__button {
+    @extend %cta;
+}
