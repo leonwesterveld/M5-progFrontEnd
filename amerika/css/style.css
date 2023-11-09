@@ -1,0 +1,130 @@
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: repeating-linear-gradient(to bottom, red 0, red 5rem, white 5rem, white 9.5rem);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 38rem;
+  width: 70rem;
+  background: #240ea5;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.star__cage {
+  height: 5rem;
+  width: 5rem;
+  position: relative;
+}
+
+.star {
+  height: 0;
+  width: 0;
+  border-top: 17.5px solid white;
+  border-right: 24px solid transparent;
+  border-bottom: 24px solid transparent;
+  border-left: 24px solid transparent;
+  position: absolute;
+}
+
+.p1 {
+  top: 17.5px;
+  left: 1px;
+}
+
+.p2 {
+  top: 8px;
+  left: -12px;
+  transform: rotate(72deg);
+}
+
+.p3 {
+  top: 8px;
+  left: 12.5px;
+  transform: rotate(-72deg);
+}
+
+.shield_1 {
+  height: 52rem;
+  width: 52rem;
+  background-color: #ff4040;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.shield_2 {
+  height: 42rem;
+  width: 42rem;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shield_3 {
+  height: 30rem;
+  width: 30rem;
+  background-color: #ff4040;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center {
+  height: 20rem;
+  width: 20rem;
+  background-color: #306fd4;
+  border-radius: 50%;
+  position: relative;
+}
+
+.ster {
+  height: 0;
+  width: 0;
+  border-top: 7rem solid white;
+  border-right: 9.6rem solid transparent;
+  border-bottom: 9.6rem solid transparent;
+  border-left: 9.6rem solid transparent;
+  position: absolute;
+}
+
+.top {
+  top: 7rem;
+  left: 0.4rem;
+}
+
+.left {
+  top: 3.2rem;
+  left: -4.8rem;
+  transform: rotate(72deg);
+}
+
+.right {
+  top: 3.2rem;
+  left: 5rem;
+  transform: rotate(-72deg);
+}
+
+/*# sourceMappingURL=style.css.map */

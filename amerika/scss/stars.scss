@@ -1,0 +1,46 @@
+@use'colors';
+
+.stars{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 38rem;
+    width: 70rem;
+    background:  colors.$blue;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.star__cage{
+    height: 5rem;
+    width: 5rem;
+    position: relative;
+}
+
+.star{
+    height: 0;
+    width: 0;
+    border-top: 17.5px solid white;
+    border-right: 24px solid transparent;
+    border-bottom: 24px solid transparent;
+    border-left: 24px solid transparent;
+    position: absolute;
+}
+
+.p1{
+    top: 17.5px;
+    left: 1px;
+}
+
+.p2{
+    top: 8px;
+    left: -12px;
+    transform: rotate(72deg);
+}
+
+.p3{
+    top: 8px;
+    left: 12.5px;
+    transform: rotate(-72deg);
+}
