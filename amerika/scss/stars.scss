@@ -1,6 +1,6 @@
 @use'colors';
 
-.stars{
+.stars{                         //dit is het blouwe vlak rechts boven
     position: absolute;
     top: 0;
     left: 0;
@@ -12,13 +12,13 @@
     padding: 2rem;
 }
 
-.star__cage{
+.star__cage{                   //dit is zodat de sterren niet in elkaar komen
     height: 5rem;
     width: 5rem;
     position: relative;
 }
 
-.star{
+.star{                          //dit is de form van een pijl maken
     height: 0;
     width: 0;
     border-top: 17.5px solid white;
@@ -28,7 +28,7 @@
     position: absolute;
 }
 
-.p1{
+.p1{                            //deze 3 geven de locatie en rotatie van de pijlen zodat het sterren worden
     top: 17.5px;
     left: 1px;
 }

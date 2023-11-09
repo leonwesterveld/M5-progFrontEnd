@@ -127,4 +127,13 @@ body {
   transform: rotate(-72deg);
 }
 
+.ik {
+  font-size: 4rem;
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  font-family: sans-serif;
+  font-weight: 800;
+}
+
 /*# sourceMappingURL=style.css.map */

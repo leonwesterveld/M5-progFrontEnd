@@ -4,3 +4,5 @@
 // 	let cln = star.cloneNode(true);
 // 	document.body.append(cln)
 // }
+
+// dit is een code om de stars te clone ipv zoveel in de html te zetten, maar is gevaalt

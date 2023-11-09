@@ -1,6 +1,6 @@
 @use 'colors';
   
-  .shield_1 {
+  .shield_1 {               //grote rode cirkel
     height: 52rem;
     width: 52rem;
     background-color: colors.$red;
@@ -11,7 +11,7 @@
     position: absolute;
   }
   
-  .shield_2 {
+  .shield_2 {               //witte cirkel daar in
     height: 42rem;
     width: 42rem;
     background:  colors.$white;
@@ -21,7 +21,7 @@
     justify-content: center;
   }
   
-  .shield_3 {
+  .shield_3 {               //kleinere rode cirkel
     height: 30rem;
     width: 30rem;
     background-color:  colors.$red;
@@ -31,7 +31,7 @@
     justify-content: center;
   }
   
-  .center {
+  .center {                 //de blauwe cirtkel
     height: 20rem;
     width: 20rem;
     background-color: colors.$shield;
@@ -39,7 +39,7 @@
     position: relative;
   }
   
-  .ster {
+  .ster {                   //dit is het zelfde als in stars maar dan groter
     height: 0;
     width: 0;
     border-top: 7rem solid white;
